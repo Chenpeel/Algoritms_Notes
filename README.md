@@ -266,7 +266,3 @@ http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 [labuladong 的算法小抄](https://labuladong.gitee.io/algo/) 作者整理了很多的解题套路框架，看完获益良多
 
-## 联系
-
-[@移动开发小冉](http://weibo.com/ranwj)
-
