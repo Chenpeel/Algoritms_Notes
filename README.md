@@ -105,13 +105,13 @@
 ## [算法设计思想]()
 
 
-* [递归](./analysis/recursion)
-* [分治算法]() 
-* [动态规划]()  
+* [递归](./analysis/recursion.md)
+* [分治算法](./analysis/divide_conquer.md) 
+* [动态规划](./analysis/dynamic_program.md)  
 * [回溯法]()
 * [迭代法]()  
 * [穷举搜索法]()   
-* [贪心算法]() 
+* [贪心算法](./analysis/greedy.md) 
 
 
 
