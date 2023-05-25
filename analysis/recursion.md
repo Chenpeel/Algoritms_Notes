@@ -7,9 +7,12 @@
 - 递推：将大的问题分为小的子问题
 - 回归：获得最简单的解方案后，逐层返回
 
-`(1) ` 确定递归公式，如 斐波那契数列 中 $$ fib(n) = \begin{cases} fib(n-1)+fib(n-2)&\text{, if } n \ge 2  \\ 1 &\text{, if } n = 1  \\ 0 , &\text{, if } n =0 \end{cases}$$ 
+`(1) ` 确定递归公式，如 斐波那契数列 中 
+$$
+fib(n) = \begin{cases} fib(n-1)+fib(n-2)&\text{, if } n \ge 2  \\ 1 &\text{, if } n = 1  \\ 0 , &\text{, if } n =0 \end{cases}
+$$ 
 
-`(2)`确定边界bad case，显然，$$ fib(n) $$边界就是  $$ n= 0 \text{  or  } n =  1 $$ 
+`(2)`确定边界bad case，显然，$ fib(n) $ 边界就是  $n= 0 \text{  or  } n =  1 $ 
 
 递归的效率
 
