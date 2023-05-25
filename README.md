@@ -1,6 +1,6 @@
 >算法虐我千百遍，我待算法如初恋
 
-## 学习方法(Updating......)
+# 总得走那么一遭		(Updating......)
 
 * 把所有经典算法写一遍  
 * 看算法有关源码   (STL源码等等)
@@ -105,7 +105,7 @@
 ## [算法设计思想]()
 
 
-* [递归]() 
+* [递归](./analysis/recursion)
 * [分治算法]() 
 * [动态规划]()  
 * [回溯法]()
@@ -245,11 +245,18 @@ http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 ### 编程网站
 
-* [leetcode](http://leetcode.com/)   
+* [leetcode](https://leetcode.cn/u/chen___chen/)个人主页
+* [AcWing](https://www.acwing.com/problem/) 刷题
 * [codetop](https://codetop.cc/home) 企业高频面试题库，刷题必备
 * [openjudge](http://openjudge.cn/)  开放在线程序评测平台，可以创建自己的OJ小组   
 * [九度OJ](http://ac.jobdu.com/index.php)     
 * 这有个[ACM训练方案](http://www.java3z.com/cwbwebhome/article/article19/res041.html)   
+
+### 竞赛网站
+
+- [leetcode](https://leetcode.cn/contest/)
+- [AtCoder](https://atcoder.jp/) 英国网站，作息阴间的可以一试
+- [ForceCd](https://codeforces.com/) 同上
 
 
 ### 网课

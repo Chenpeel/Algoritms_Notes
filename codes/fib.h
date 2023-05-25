@@ -1,7 +1,6 @@
+#ifndef FIB
+#define FIB
 #include<iostream>
-using std::cin;
-using std::cout;
-using std::endl;
 
 //basic
 long long fib(int n){
@@ -42,3 +41,5 @@ long long fib(int n){
     }
     return res;
 }
+
+#endif
