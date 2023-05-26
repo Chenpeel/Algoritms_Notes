@@ -1,35 +1,44 @@
-#include<iostream>
+#include <iostream>
 using std::vector;
 
-void swap(int &a,int &b){
-    a = a + b;
-    b = a - b;
-    a = a - b;  
+template <typename T>
+void swap(T& a, T& b) {
+  T temp = a;
+  a = b;
+  b = temp;
 }
-int part(vector<int>& v,int left,int right){
-    int n = v.size();
-    int pivot = rand() % n;
-    int i = left,j = right;
-    while(i<j && pivot > v[left]){
-        while(i<j && pivot < v[right]){
-            j--;
-        }
-        if(i<j){ swap(v[i],v[j]); }
-        while(i<j&& pivot>v[left]){
-            i++;
-        }
-        if(i<j){ swap(v[i],v[j]); }
+
+template <typename T>
+int part(vector<T>& v, int left, int right) {
+  int n = v.size();
+  int pivot = left + rand() % (right - left + 1);
+  int i = left, j = right;
+  while (i < j) {
+    while (i < j && v[j] >= v[pivot]) {
+      j--;
     }
-    return i;
-}
-void quick_sort(vector<int>& v,int left,int right){
-    int mid ;
-    if(left<right){
-        mid = part(v,left,right);
-        quick_sort(v,left,mid-1);
-        quick_sort(v,mid+1,right);
+    while (i < j && v[i] < v[pivot]) {
+      i++;
     }
+    if (i < j) {
+      swap(v[i], v[j]);
+    }
+  }
+  swap(v[i], v[pivot]);
+  return i;
 }
-void quick_sort(vector<int>& v){
-    quick_sort(v,0,v.size()-1);    
+
+template <typename T>
+void quick_sort(vector<T>& v, int left, int right) {
+  if (left >= right) {
+    return;
+  }
+  int mid = part(v, left, right);
+  quick_sort(v, left, mid - 1);
+  quick_sort(v, mid + 1, right);
+}
+
+template <typename T>
+void quick_sort(vector<T>& v) {
+  quick_sort(v, 0, v.size() - 1);
 }
