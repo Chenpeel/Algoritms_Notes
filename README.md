@@ -115,17 +115,12 @@ $$
 
 
 * [递归](./analysis/recursion.md)
-<<<<<<< HEAD
 * [分治算法]() 
-* [动态规划]()  
-=======
-* [分治算法](./analysis/divide_conquer.md) 
-* [动态规划](./analysis/dynamic_program.md)  
->>>>>>> 59a0849e0280799067307e5cb10221772f05387d
+* [动态规划]()
 * [回溯法]()
 * [迭代法]()  
 * [穷举搜索法]()   
-* [贪心算法](./analysis/greedy.md) 
+* [贪心算法]() 
 
 
 
