@@ -13,7 +13,7 @@ $$
 O(1) < O(log_2n)<O(n) < O(\sqrt n) < O(nlog_2 {n} < O(n^c)< O(c^n) < O(n!)
 $$
 
-
+希望我的算法课不会挂
 
 
 ## 基本数据结构和算法
@@ -86,13 +86,13 @@ $$
 
 **交换排序算法**
 
-* [冒泡排序]()
-* [插入排序]()
-* [选择排序]()
-* [希尔排序]()
-* [快速排序]()
-* [归并排序]()
-* [堆排序]()
+* [冒泡排序](./codes/bubble_sort.cpp) 
+* [插入排序](./codes/insert_sort.cpp)
+* [选择排序](./codes/selection_sort.cpp)
+* [希尔排序](./codes/shell_sort.cpp)
+* [快速排序](./codes/quick_sort.cpp)
+* [归并排序](./codes/merge_sort.cpp)
+* [堆排序](./codes/heap_sort.cpp) 
 
 **线性排序算法**
     
@@ -100,7 +100,7 @@ $$
 * [桶排序]()
   
   
-### [查找算法]()  
+### 查找算法
 
 
 * 哈希表： O(1)  [hashtable实现参考这里]()
@@ -111,22 +111,20 @@ $$
   
 
 
-## [算法设计思想]()
+## 算法设计思想
 
 
 * [递归](./analysis/recursion.md)
 * [分治算法]() 
-* [动态规划]()
+* [动态规划](./analysis/dynamic_programing.md)
 * [回溯法]()
 * [迭代法]()  
 * [穷举搜索法]()   
-* [贪心算法]() 
+* [贪心算法](./analysis/greedy.md) 
 
 
 
-## [面试算法题目](9%20Algorithms%20Job%20Interview/README.md)
-
-这是一个算法题目合集，题目是我从网络和书籍之中整理而来，部分题目已经做了思路整理。问题分类包括：
+## 面试算法题目
 
 * 字符串
 * 堆和栈
@@ -140,14 +138,8 @@ $$
 * 智力思维训练
 * 系统设计
 
-还有部分来自算法网站和书籍：
 
-* 九度OJ
-* leetcode
-* 剑指offer
-
-
-## [海量数据处理]()
+## 海量数据处理
 
 * Hash映射/分而治之
 * Bitmap
@@ -162,7 +154,7 @@ $$
 
 
 
-## [开源项目中的算法]()
+## 开源项目中的算法
 
 * YYCache
 * cocos2d-objc
@@ -180,12 +172,12 @@ $$
 
 
 * [KMP 字符串匹配算法]()
-* [Hash]()   
+* [Hash]()
 * [快速排序]()
 * 快速选择SELECT 
 * [红黑树 （一种弱/自平衡的`二叉查找树`）]()
 * [BFS/DFS （广度/深度优先遍历）]()
-* [`A*`寻路算法： 求解最短路径]()
+* [寻路算法： 求解最短路径]()
 * Dijkstra：最短路径算法
 * `SPFA(Shortest Path Faster Algorithm)` 单元最短路径算法  
 * 启发式搜索
@@ -270,10 +262,13 @@ http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 ### 网课
 
-[高级数据结构和算法](https://www.coursera.org/learn/gaoji-shuju-jiegou/)  北大教授张铭老师在coursera上的课程。完成这门课之时，你将掌握多维数组、广义表、Trie树、AVL树、伸展树等高级数据结构，并结合内排序、外排序、检索、索引有关的算法，高效地解决现实生活中一些比较复杂的应用问题。当然coursera上也还有很多其它算法方面的视频课程。
+[高级数据结构和算法](https://www.coursera.org/learn/gaoji-shuju-jiegou/)  
 
+北大教授张铭老师在coursera上的课程。完成这门课之时，你将掌握多维数组、广义表、Trie树、AVL树、伸展树等高级数据结构，并结合内排序、外排序、检索、索引有关的算法，高效地解决现实生活中一些比较复杂的应用问题。当然coursera上也还有很多其它算法方面的视频课程。
 
-[算法设计与分析 Design and Analysis of Algorithms](https://class.coursera.org/algorithms-001/lecture) 由北大教授Wanling Qu在coursera讲授的一门算法课程。首先介绍一些与算法有关的基础知识，然后阐述经典的算法设计思想和分析技术，主要涉及的算法设计技术是：分治策略、动态规划、贪心法、回溯与分支限界等。每个视频都配有相应的讲义（pdf文件）以便阅读和复习。
+[算法设计与分析 Design and Analysis of Algorithms](https://class.coursera.org/algorithms-001/lecture) 
+
+由北大教授Wanling Qu在coursera讲授的一门算法课程。首先介绍一些与算法有关的基础知识，然后阐述经典的算法设计思想和分析技术，主要涉及的算法设计技术是：分治策略、动态规划、贪心法、回溯与分支限界等。每个视频都配有相应的讲义（pdf文件）以便阅读和复习。
 
 
 ### 其它
