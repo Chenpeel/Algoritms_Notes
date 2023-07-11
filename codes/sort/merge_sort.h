@@ -1,3 +1,6 @@
+#ifndef MERGE_SORT_H
+#define MERGE_SORT_H
+
 #include <iostream>
 #include <vector>
 using std::vector;
@@ -39,3 +42,4 @@ void merge_sort(vector<T>& arr) {
   auto n = arr.size();
   merge_sort(arr, 0, n - 1);
 }
+#endif

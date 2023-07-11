@@ -1,5 +1,5 @@
-#ifndef BUBBLE_SORT
-#define BUBBLE_SORT
+#ifndef BUBBLE_SORT_H
+#define BUBBLE_SORT_H
 
 #include <assert.h>
 

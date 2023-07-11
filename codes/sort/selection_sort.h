@@ -1,3 +1,6 @@
+#ifndef SELECTION_SORT_H
+#define SELECTION_SORT_H
+
 #include <iostream>
 
 template <typename T>
@@ -16,3 +19,4 @@ void selection_sort(T list[], int size) {
     swap(list[i], list[min_index]);
   }
 }
+#endif

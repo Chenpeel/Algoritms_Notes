@@ -1,6 +1,6 @@
 # 动态规划
 
-——递推公式是动态规划的灵魂，dp的含义、初始化以及遍历的顺序也很关键，但最重要是分析问题的思想，在此，将动态规划划分为五个阶段，来自于[代码随想录](https://www.bilibili.com/video/BV13Q4y197Wg/?spm_id_from=333.337.search-card.all.click&vd_source=2ed772ef3c25dca43937d30b2e9c63c9) 
+>  递推公式是动态规划的灵魂，dp的含义、初始化以及遍历的顺序也很关键，但最重要是分析问题的思想，在此，将动态规划划分为五个阶段，来自于[代码随想录](https://www.bilibili.com/video/BV13Q4y197Wg/?spm_id_from=333.337.search-card.all.click&vd_source=2ed772ef3c25dca43937d30b2e9c63c9) 
 
 ##### 五个阶段
 
@@ -97,7 +97,6 @@
 - 题目代码：
   - [resource_alloc.h](../codes/resource_alloc.h) 
   - [resource_alloc.py](../updating.md) 
-
 
 
 

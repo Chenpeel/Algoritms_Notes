@@ -1,6 +1,6 @@
 # 分治
 
-——分而治之，多么熟悉的手段，这不两千多年前的诸侯国治吗
+> 分而治之，多么熟悉的手段，这不两千多年前的诸侯国治吗
 
 ##### 两个阶段
 
@@ -23,4 +23,3 @@
   - [max_subarray_sum.h](../codes/max_subarray_sum.h)
   - [max_subarray_sum.py](../pycodes/max_subarray_sum.py) 
 
-###### 

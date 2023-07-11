@@ -1,3 +1,6 @@
+#ifndef QUICK_SORT_H
+#define QUICK_SORT_U
+
 #include <iostream>
 using std::vector;
 
@@ -42,3 +45,4 @@ template <typename T>
 void quick_sort(vector<T>& v) {
   quick_sort(v, 0, v.size() - 1);
 }
+#endif

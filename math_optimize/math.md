@@ -4,4 +4,7 @@
 
 
 
-关于编程人第一个接触的算法，[斐波那契数列]()必定有一席之地，其数学表达式为 $$ F_n = \cfrac{1}{\sqrt 5}\lbrack (\cfrac{1+\sqrt5}{2})^n-(\cfrac {1-\sqrt5}{2})^n \rbrack $$
+关于编程人第一个接触的算法，[斐波那契数列]()必定有一席之地，其数学表达式为 (1)	
+$$
+F_n = \cfrac{1}{\sqrt 5}\lbrack (\cfrac{1+\sqrt5}{2})^n-(\cfrac {1-\sqrt5}{2})^n \rbrack
+$$
